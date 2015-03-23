@@ -1,0 +1,5 @@
+E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.exe.config
+E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.exe
+E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.pdb
+E:\code\csharp\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.exe
+E:\code\csharp\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.pdb
