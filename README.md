@@ -10,6 +10,18 @@ Name			| Link
 Release Binary	| [TraceRoutePlus.exe](https://github.com/sbrl/TraceRoutePlus/raw/master/TraceRoutePlus/bin/Release/TraceRoutePlus.exe)
 Debug Binary	| [TraceRoutePlus.exe](https://github.com/sbrl/TraceRoutePlus/raw/master/TraceRoutePlus/bin/Debug/TraceRoutePlus.exe)
 
+## Building
+You can either build this with Visual Studio 2013, mono (gmcs I think?), or `csc.exe`.
+
+### Visual Studio 2013
+Open the project, and then goto `Build -> Build Solution`, or press `CTRL + SHIFT + B`.
+
+### csc.exe
+Execute this in the `TraceRoutePlus` folder:
+```
+...\TraceRoutePlus> csc /out:TraceRoutePlus.exe *.cs
+```
+
 ## Examples
 Example traceroute:
 ```bash
