@@ -14,7 +14,7 @@ Debug Binary	| [TraceRoutePlus.exe](https://github.com/sbrl/TraceRoutePlus/raw/m
 You can either build this with Visual Studio 2013, mono (gmcs I think?), or `csc.exe`.
 
 ### Visual Studio 2013
-Open the project, and then goto `Build -> Build Solution`, or press `CTRL + SHIFT + B`.
+Open the project, and then go to `Build -> Build Solution`, or press `CTRL + SHIFT + B`.
 
 ### csc.exe
 Execute this in the `TraceRoutePlus` folder:
