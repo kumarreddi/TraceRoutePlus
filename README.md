@@ -5,6 +5,8 @@ Traceroute Plus is a traceroute utility I wrote for educational purposes in C&sh
 ## Download
 Currently binaries are only available for windows, but it should compile fine with Mono too.
 
+Name			| Link
+----------------|-------------------------------
 Release Binary	| [TraceRoutePlus.exe](https://github.com/sbrl/TraceRoutePlus/raw/master/TraceRoutePlus/bin/Release/TraceRoutePlus.exe)
 Debug Binary	| [TraceRoutePlus.exe](https://github.com/sbrl/TraceRoutePlus/raw/master/TraceRoutePlus/bin/Debug/TraceRoutePlus.exe)
 
