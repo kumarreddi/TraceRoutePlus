@@ -2,6 +2,9 @@
 
 Traceroute Plus is a traceroute utility I wrote for educational purposes in C&sharp;. Usage information can be found by calling it without any parameters: `tracerouteplus.exe`.
 
+## Features
+ - 
+
 ## Download
 Currently binaries are only available for windows, but it should compile fine with Mono too.
 
@@ -46,3 +49,6 @@ By Starbeamrainbowlabs <https://starbeamrainbowlabs.com>
 ## Todo
  - (optional) DNS lookups
  - ...? (create an issue, or even better a pull request!)
+
+## License
+TraceRoutePlus is licensed under the **Mozilla Public License 2.0**. A Copy of this license is located in the LICENSE file in the root of this repository.
