@@ -9,7 +9,9 @@ Option Name | Default Value | Information
 ------------|---------------|--------------------------------------------------
 * file      | Not Specified | Causes TraceRoutePlus to read domains in from the
             |               | specified filename. Use a dash (-) to indicate
-            |               | that TraceRoutePlus shold read from stdin.
+            |               | that TraceRoutePlus shold read from stdin. Note
+            |               | that when reading from stdin TraceRoutePlus looks
+            |               | for an empty line to indicate the stopping point.
             |               | 
 timeout     | 8             | The maximum amount of time we should wait for a
             |               | response from any given ping request.
@@ -31,6 +33,7 @@ about       | Not Specified | Display information about TraceRoutePlus and then
 license     | Not Specified | Display the license and then exit.
 help        | Not Specified | Display this help message and then exit. You can
             |               | also get this help message by calling
+verbose     | Not Specified | Output lots of debugging information.
             |               | TraceRoutePlus without any arguments.
 
 *: Not Implemented yet
