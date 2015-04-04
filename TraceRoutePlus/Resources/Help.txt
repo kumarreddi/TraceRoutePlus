@@ -1,0 +1,53 @@
+TraceRoutePlus
+==============
+By Starbeamrainbowlabs <https://starbeamrainbowlabs.com>
+Type `tracerouteplus /about` for full information
+
+Usage: tracerouteplus <options> domain1.com domain2.co.uk domainx.abc...
+
+Option Name | Default Value | Information
+------------|---------------|--------------------------------------------------
+* file      | Not Specified | Causes TraceRoutePlus to read domains in from the
+            |               | specified filename. Use a dash (-) to indicate
+            |               | that TraceRoutePlus shold read from stdin.
+            |               | 
+timeout     | 8             | The maximum amount of time we should wait for a
+            |               | response from any given ping request.
+            |               | 
+retries     | 5             | The number of times we should retry pinging a
+            |               | given host if we don't get a response.
+            |               | 
+waitbetween | 0             | The number of seconds that should pass between
+            |               | successive pings.
+            |               | 
+maxhops     | -1 (disabled) | The maximum number of hops that should be done.
+bare        | Not Specified | Specifying this option causes the program to
+            |               | output the tracereoute in a bare format.
+            |               | 
+------------|---------------|--------------------------------------------------
+about       | Not Specified | Display information about TraceRoutePlus and then
+            |               | exit.
+            |               | 
+license     | Not Specified | Display the license and then exit.
+help        | Not Specified | Display this help message and then exit. You can
+            |               | also get this help message by calling TraceRoutePlus without any arguments.
+
+*: Not Implemented yet
+
+Examples
+--------
+
+tracerouteplus google.com
+  does: trace a route to google.com
+
+tracerouteplus google.com yahoo.co.uk
+  does: trace a route to google.com and then yahoo.co.uk
+
+tracerouteplus /bare google.com
+  does: Make the output bare
+
+tracerouteplus /retries 20 google.com
+  does: retry failed pings 20 times
+
+tracerouteplus /timeout 10 google.com
+  does: wait 10 seconds for a reply to a ping request

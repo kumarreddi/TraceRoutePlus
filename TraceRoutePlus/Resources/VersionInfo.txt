@@ -1,0 +1,8 @@
+TraceRoutePlus
+==============
+Author: Starbeamrainbowlabs <https://starbeamrainbowlabs.com>
+Twitter: https://twitter.com/SBRLabs
+Github Repository: https://github.com/sbrl/TraceRoutePlus
+Contributors: (none yet! Be the first!)
+License: Mozilla Public License 2.0
+ -> Type `tracerouteplus /license` to see the full license

@@ -61,6 +61,43 @@ namespace TraceRoutePlus.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TraceRoutePlus
+        ///--------------
+        ///Author: Starbeeamrainbowlabs &lt;https://starbeamrainbowlabs.com&gt;
+        ///Twitter: https://twitter.com/SBRLabs
+        ///Github Repository: https://github.com/sbrl/TraceRoutePlus
+        ///Contributors: (none yet! Be the first!)
+        ///License: Mozilla Public License 2.0
+        /// -&gt; Type `tracerouteplus /license` to see the full license
+        ///.
+        /// </summary>
+        internal static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TraceRoutePlus
+        ///--------------
+        ///By Starbeamrainbowlabs &lt;https://starbeamrainbowlabs.com&gt;
+        ///Type `tracerouteplus /about` for full information
+        ///
+        ///Usage: tracerouteplus &lt;options&gt; domain1.com domain2.co.uk domainx.abc...
+        ///
+        ///Option Name | Default Value | Information
+        ///------------|---------------|---------------------------------------------------
+        ///timeout     | 8             | The maximum amount of time we should wait for a
+        ///                              response from any given ping request.
+        ///retries     | 5      [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mozilla Public License, version 2.0
         ///
         ///1. Definitions

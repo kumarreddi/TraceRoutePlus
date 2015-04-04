@@ -8,3 +8,8 @@ E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Debug\TraceRoutePlus.exe.lastco
 E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Debug\TraceRoutePlus.exe.config
 E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Debug\TraceRoutePlus.exe
 E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Debug\TraceRoutePlus.pdb
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Debug\TraceRoutePlus.exe
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Debug\TraceRoutePlus.pdb
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Debug\TraceRoutePlus.csprojResolveAssemblyReference.cache
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Debug\TraceRoutePlus.Properties.Resources.resources
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Debug\TraceRoutePlus.csproj.GenerateResource.Cache
