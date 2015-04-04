@@ -66,7 +66,7 @@ namespace TraceRoutePlus
 				return;
 			}
 
-			if(Options["help"] == "true" || ((args.Length == 0 || Targets.Count == 0) && Options["file"].Length < 0))
+			if(Options["help"] == "true" || ((args.Length == 0 || Targets.Count == 0) && Options["file"].Length <= 0))
 			{
 				Console.WriteLine(Resources.Help);
 				return;

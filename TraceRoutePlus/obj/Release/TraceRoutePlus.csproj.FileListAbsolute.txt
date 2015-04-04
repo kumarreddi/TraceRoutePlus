@@ -3,3 +3,10 @@ E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.exe
 E:\code\csharp\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.pdb
 E:\code\csharp\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.exe
 E:\code\csharp\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.pdb
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.exe.config
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.exe
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.pdb
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.exe
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\bin\Release\TraceRoutePlus.pdb
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.Properties.Resources.resources
+E:\code\csharp\Utilities\TraceRoutePlus\TraceRoutePlus\obj\Release\TraceRoutePlus.csproj.GenerateResource.Cache
