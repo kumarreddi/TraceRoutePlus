@@ -42,16 +42,23 @@ Examples
 --------
 
 tracerouteplus google.com
-  does: trace a route to google.com
+  does: traces a route to google.com
 
 tracerouteplus google.com yahoo.co.uk
-  does: trace a route to google.com and then yahoo.co.uk
+  does: traces a route to google.com and then yahoo.co.uk
 
 tracerouteplus /bare google.com
-  does: Make the output bare
+  does: Makes the output bare
 
 tracerouteplus /retries 20 google.com
-  does: retry failed pings 20 times
+  does: retries failed pings 20 times
 
 tracerouteplus /timeout 10 google.com
-  does: wait 10 seconds for a reply to a ping request
+  does: waits 10 seconds for a reply to a ping request
+
+tracerouteplus /file domains.txt
+  does: traces a route for all the domains in domains.txt
+
+cat domains.txt | tracerouteplus /file -
+  does: traces a route for all the domains in the standdard input
+  (in this instance we are using cat to pass in a file)

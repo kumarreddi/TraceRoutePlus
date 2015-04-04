@@ -83,10 +83,10 @@ namespace TraceRoutePlus
 			{
 				if(Options["file"] == "-")
 				{
-					string nextLine;
+					string nextLine = "";
 					do
 					{
-						nextLine = Console.ReadLine().Trim();
+						nextLine = Console.ReadLine();
 
 						if (!string.IsNullOrEmpty(nextLine))
 						{
