@@ -3,7 +3,18 @@
 Traceroute Plus is a traceroute utility I wrote for educational purposes in C&sharp;. Usage information can be found by calling it without any parameters: `tracerouteplus.exe`.
 
 ## Features
- - 
+ - Configurable ping options:
+	 - Timeout
+	 - Time to wait between each request
+	 - Number of retries for failed pings
+	 - Maximum hop count (default: unlimited, tells you when the limit was hit)
+ - Tells you what went wrong (DestinationNetworkUnreachable, TimedOut, etc.)
+ - Traceroute for multiple domains
+	 - Read in domains from stdin
+ - Bare output format for scripts
+ - Guesses the round trip time for hosts that don't respond based on initial probe ping
+	 - This is done by timing the amount of time the initial traceroute probe takes via System.Diagnotics.StopWatch
+	 - This is usually out by at least ~10ms though I think because it recourds all the overhead of send the ping request as well
 
 ## Download
 Currently binaries are only available for windows, but it should compile fine with Mono too.
