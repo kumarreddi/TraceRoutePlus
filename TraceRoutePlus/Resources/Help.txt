@@ -30,7 +30,8 @@ about       | Not Specified | Display information about TraceRoutePlus and then
             |               | 
 license     | Not Specified | Display the license and then exit.
 help        | Not Specified | Display this help message and then exit. You can
-            |               | also get this help message by calling TraceRoutePlus without any arguments.
+            |               | also get this help message by calling
+            |               | TraceRoutePlus without any arguments.
 
 *: Not Implemented yet
 
