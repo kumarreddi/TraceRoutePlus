@@ -1,6 +1,7 @@
 ﻿#region Using statements
 using System;
 using System.Diagnostics;
+using System.Net;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading;
@@ -73,6 +74,7 @@ namespace TraceRoutePlus
 				{
 					// we are done
 					Console.Write("{0,-16} ", pingResponse.Address);
+					PrintHostName(pingResponse.Address.ToString());
 					Console.WriteLine("{0,-8}", pingResponse.RoundtripTime + "ms");
 
 					if (Program.Options["bare"] == "false")
@@ -84,6 +86,7 @@ namespace TraceRoutePlus
 				{
 					// we found another host along the way
 					Console.Write("{0,-16}", pingResponse.Address);
+					PrintHostName(pingResponse.Address.ToString());
 
 					PingReply intermediateResponse;
 					int subtries = 0;
@@ -124,6 +127,36 @@ namespace TraceRoutePlus
 				Console.WriteLine();
 				hopNumber++;
 			}
+		}
+
+		public static void PrintHostName(string IPAddress)
+		{
+			if (Program.Options["dns"] == "false")
+				return;
+
+			int columnSize = 20;
+			try
+			{
+				string hostName = Dns.GetHostEntry(IPAddress).HostName;
+				if (Program.Options["bare"] == "false")
+					Console.Write(String.Format("<{0}>", hostName).PadRight(columnSize));
+				else
+					Console.Write(hostName);
+			}
+			catch (Exception error)
+			{
+				string shortMessage = "";
+				if(error.Message.Contains("no data of the requested type was found"))
+				{
+					shortMessage = "No HostName Found";
+				}
+				else
+				{
+					shortMessage = error.Message;
+				}
+				Console.Write(String.Format("({0})", shortMessage).PadRight(columnSize));
+			}
+			Console.Write(" ");
 		}
 	}
 }

@@ -19,6 +19,7 @@ namespace TraceRoutePlus
 			{ "maxhops", true },
 
 			{ "bare", false },
+			{ "dns", false },
 
 			{ "about", false },
 			{ "license", false },
@@ -35,6 +36,7 @@ namespace TraceRoutePlus
 			{ "maxhops", "-1" },
 
 			{ "bare", "false" },
+			{ "dns", "false" },
 
 			{ "about", "false" },
 			{ "license", "false" },

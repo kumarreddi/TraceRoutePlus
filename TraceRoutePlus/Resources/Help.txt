@@ -23,6 +23,9 @@ waitbetween | 0             | The number of seconds that should pass between
             |               | successive pings.
             |               | 
 maxhops     | -1 (disabled) | The maximum number of hops that should be done.
+dns         | Not Specified | Causes TraceRoutePlus to perform a reverse DNS
+            |               | lookup for each IP address in the traceroute.
+            |               | 
 bare        | Not Specified | Specifying this option causes the program to
             |               | output the tracereoute in a bare format.
             |               | 

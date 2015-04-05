@@ -58,7 +58,6 @@ By Starbeamrainbowlabs <https://starbeamrainbowlabs.com>
 (Some ip addresses have been blanked out for security)
 
 ## Todo
- - (optional) DNS lookups
  - ...? (create an issue, or even better a pull request!)
 
 ## License
