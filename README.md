@@ -9,6 +9,7 @@ Traceroute Plus is a traceroute utility I wrote for educational purposes in C&sh
 	 - Number of retries for failed pings
 	 - Maximum hop count (default: unlimited, tells you when the limit was hit)
  - Tells you what went wrong (DestinationNetworkUnreachable, TimedOut, etc.)
+ - Optional DNS lookup for each host in traceroute (via `/dns` option)
  - Traceroute for multiple domains
 	 - Read in domains from stdin
  - Bare output format for scripts
